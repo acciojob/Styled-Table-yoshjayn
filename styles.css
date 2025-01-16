@@ -1,5 +1,5 @@
 /* your code */
-table{
+/* table{
 	border: 1px solid black;
 	border-radius:20px;
 	padding: 5px
@@ -11,4 +11,31 @@ th{
 }
 tr:nth-child(even){
 	background-color:  rgb(187, 182, 182);
+} */
+table {
+    border-collapse: collapse;
+    width: 100%;
+    border-radius: 10px;
+    overflow: hidden; /* To ensure the border-radius applies to the entire table */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* For a modern shadow effect */
+}
+
+th {
+    text-align: left;
+    background-color: #1C4E80; /* Matches the reference blue color */
+    color: white;
+    padding: 10px; /* Added padding for a neat look */
+    font-weight: bold; /* Ensures headers are emphasized */
+}
+
+tr:nth-child(even) {
+    background-color: #ebebeb; /* Slightly darker gray for even rows */
+}
+
+td {
+    padding: 10px; /* Consistent padding for all table cells */
+}
+
+tr:hover {
+    background-color: #f2f2f2; /* Subtle hover effect for better interactivity */
 }
