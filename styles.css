@@ -1,1 +1,14 @@
 /* your code */
+table{
+	border: 1px solid black;
+	border-radius:20px;
+	padding: 5px
+}
+th{
+	text-align:left;
+	background-color: blue;
+	color:white;
+}
+tr:nth-child(even){
+	background-color:  rgb(187, 182, 182);
+}
